@@ -1,0 +1,38 @@
+<template class="task-template">
+  <section id="add-lease-section" class="section js-section u-category-explorer">
+    <header class="section-header">
+      <div class="section-wrapper">
+        <h1>
+          <svg class="section-icon"><use xlink:href="assets/img/icons.svg#icon-menu"></use></svg>
+          Add Lease Smart Contract
+        </h1>
+        <h3>Add a standard form lease contract to the LeaseChain blockchain</h3>
+
+      </div>
+    </header>
+
+    <div class="demo">
+      <div class="demo-wrapper">
+        <button id="application-menu-demo-toggle" class="js-container-target demo-toggle-button" onclick="getContract()">Create a Lease Contract
+        </button>
+        <div class="demo-box">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="./renderer-process/explorer/explorer.js"></script>
+    <!--script type="text/javascript">
+      require('./renderer-process/explorer/explorer')
+    </script-->
+
+  </section>
+</template>

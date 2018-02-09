@@ -17,7 +17,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "dependencies": {
+    "electron-settings": "^3.1.4",
     "scrypt": "^6.0.3",
+    "toastr": "^2.1.4",
     "web3": "latest"
   },
   "devDependencies": {
