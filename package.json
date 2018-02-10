@@ -1,28 +1,25 @@
 {
   "name": "leasechain-client",
   "version": "0.0.1",
-  "description": "A minimal Electron application",
+  "description": "LeaseChain wallet software to connect to the LeaseChain blockchain",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Leasechain", 
+    "Real Estate",
+    "Leasing"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "https://github.com/altairmn",
+  "license": "LicenseRef-LICENSE",
   "dependencies": {
     "electron-settings": "^3.1.4",
-    "scrypt": "^6.0.3",
     "toastr": "^2.1.4",
-    "web3": "latest"
+    "web3": "^1.0.0-beta.29"
   },
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "^1.8.2"
   }
 }

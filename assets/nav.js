@@ -30,8 +30,12 @@ function activateDefaultSection () {
 }
 
 function showMainContent () {
-  document.querySelector('.js-nav').classList.add('is-shown')
-  document.querySelector('.js-content').classList.add('is-shown')
+  if (document.querySelector('.js-nav')) {
+    document.querySelector('.js-nav').classList.add('is-shown') 
+  }
+  if(document.querySelector('.js-content')) {
+    document.querySelector('.js-content').classList.add('is-shown')
+  }
 }
 
 function handleModalTrigger (event) {
