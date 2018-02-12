@@ -13,16 +13,19 @@
 
     <div class="demo">
       <div class="demo-wrapper">
-        <button id="create-contract-button" class="js-container-target demo-toggle-button">Create a Lease Contract
+        <button id="create-lease-contract" class="js-container-target demo-toggle-button">Create a Lease Contract
         </button>
         <div class="demo-box">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <label for="unit-input">Unit Address</label>
+              <input type="input" class="form-control" id="unit-input" placeholder="Enter Unit">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+              <label for="rent-input">Rent Address</label>
+              <input type="input" class="form-control" id="rent-input" placeholder="Enter rent">
+            </div>
+            <button type="button" id="add-lease-contract" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
